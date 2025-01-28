@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{cd401bab-e617-4443-86b2-3921c9397bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{8f922370-da30-4850-a999-fb25f7fa814b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recursos">
+      <UniqueIdentifier>{30754704-9f09-4384-951f-6afbcfc9dff0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_settings.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_freetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="MemorySR.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory.h">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="aob\aob.hpp">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="blur.hpp">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="blur_x.h">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="blur_y.h">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="ExactlyAuthEncryptor.h">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="letra.h">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Mem.hpp">
+      <Filter>recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="AlexanderAuthEncryptor.h" />
+    <ClInclude Include="AlexanderSecurity.h" />
+    <ClInclude Include="Security\AlexanderEncrypt.hpp" />
+    <ClInclude Include="auth\dkobf.h" />
+    <ClInclude Include="auth\auth.hpp" />
+    <ClInclude Include="Discord RPC\Discord SDK\discord_rpc_init.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\Includes\discord_register.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\Includes\discord_rpc.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\SourceFiles\backoff.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\SourceFiles\connection.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\SourceFiles\discord_register.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\SourceFiles\discord_rpc.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\SourceFiles\msg_queue.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\SourceFiles\rpc_connection.h" />
+    <ClInclude Include="Discord RPC\Discord SDK\SourceFiles\serialization.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="MemoryHL.h" />
+    <ClInclude Include="Fonts.h" />
+    <ClInclude Include="anticrack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_freetype.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="aob\aob.cpp">
+      <Filter>recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="blur.cpp">
+      <Filter>recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Mem.cpp">
+      <Filter>recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord RPC\Discord SDK\discord_rpc_init.cpp" />
+    <ClCompile Include="Discord RPC\Discord SDK\SourceFiles\connection_win.cpp" />
+    <ClCompile Include="Discord RPC\Discord SDK\SourceFiles\discord_register_win.cpp" />
+    <ClCompile Include="Discord RPC\Discord SDK\SourceFiles\discord_rpc.cpp" />
+    <ClCompile Include="Discord RPC\Discord SDK\SourceFiles\rpc_connection.cpp" />
+    <ClCompile Include="Discord RPC\Discord SDK\SourceFiles\serialization.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="build_win32.bat">
+      <Filter>recursos</Filter>
+    </None>
+    <None Include="imgui.ini" />
+    <None Include="example_win32_directx11.aps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\freetype\win64\freetype.lib">
+      <Filter>imgui</Filter>
+    </Library>
+    <Library Include="auth\libcurl.lib" />
+    <Library Include="auth\library_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="example_win32_directx11.rc">
+      <Filter>recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Discord RPC\Discord SDK\SourceFiles\CMakeLists.txt" />
+  </ItemGroup>
+</Project>
